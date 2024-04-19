@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Used Music Gear</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        #search-bar {
+            margin: 10px 0;
+        }
+        .product {
+            border: 1px solid #333;
+            margin: 10px;
+            padding: 10px;
+            background-color: #fff;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Used Music Gear</h1>
+        <label for="search-bar">Search:</label>
+        <input id="search-bar" type="text" placeholder="Search...">
+        <button onclick="alert('Sign up functionality not implemented')">Sign Up</button>
+        <button onclick="alert('Login functionality not implemented')">Login</button>
+    </header>
+    <div class="product">
+        <h2>Product Title</h2>
+        <p>Product description...</p>
+    </div>
+    <div class="product">
+        <h2>Product Title</h2>
+        <p>Product description...</p>
+    </div>
+    <footer>
+        &copy; 2022 Used Music Gear
+    </footer>
+    <script>
+        document.getElementById('search-bar').addEventListener('input', function(e) {
+            console.log('Search term: ', e.target.value);
+        });
+    </script>
+</body>
+</html>
